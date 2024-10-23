@@ -1,0 +1,92 @@
+[
+  {
+    "recipe_image": "https://images.pexels.com/photos/9609836/pexels-photo-9609836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken with Basil",
+    "short_description": "A flavorful chicken recipe with a touch of basil and mushroom.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom",
+      "2 cloves garlic"
+    ],
+    "preparing_time": 30,
+    "calories": "320 calories"
+  },
+  {
+    "recipe_image": "https://images.pexels.com/photos/5640045/pexels-photo-5640045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "Classic Italian pasta dish with creamy sauce and pancetta.",
+    "ingredients": [
+      "200 g spaghetti",
+      "100 g pancetta",
+      "2 eggs",
+      "50 g parmesan cheese",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": 25,
+    "calories": "410 calories"
+  },
+  {
+    "recipe_image": "https://images.pexels.com/photos/10695966/pexels-photo-10695966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "Quick and healthy vegetable stir-fry with soy sauce and sesame oil.",
+    "ingredients": [
+      "300 g broccoli",
+      "150 g bell peppers",
+      "100 g carrots",
+      "50 ml soy sauce",
+      "1 tbsp sesame oil"
+    ],
+    "preparing_time": 20,
+    "calories": "220 calories"
+  },
+  {
+    "recipe_image": "https://images.pexels.com/photos/7613563/pexels-photo-7613563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 4,
+    "recipe_name": "Beef Tacos",
+    "short_description": "Spicy beef tacos served with salsa and avocado.",
+    "ingredients": [
+      "400 g ground beef",
+      "8 taco shells",
+      "150 g salsa",
+      "1 avocado",
+      "50 g cheese"
+    ],
+    "preparing_time": 35,
+    "calories": "480 calories"
+  },
+  {
+    "recipe_image": "https://images.pexels.com/photos/6454809/pexels-photo-6454809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 5,
+    "recipe_name": "Thai Green Curry",
+    "short_description": "Spicy Thai green curry with chicken and coconut milk.",
+    "ingredients": [
+      "500 g chicken",
+      "200 ml coconut milk",
+      "100 g green curry paste",
+      "100 g green beans",
+      "1 tbsp fish sauce"
+    ],
+    "preparing_time": 40,
+    "calories": "450 calories"
+  },
+  {
+    "recipe_image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Chip Cookies",
+    "short_description": "Chewy chocolate chip cookies with a crisp edge.",
+    "ingredients": [
+      "250 g flour",
+      "200 g sugar",
+      "150 g chocolate chips",
+      "100 g butter",
+      "1 tsp vanilla extract"
+    ],
+    "preparing_time": 25,
+    "calories": "320 calories"
+  }
+]
