@@ -3,7 +3,7 @@ import { AiOutlineFire } from "react-icons/ai";
 import PropTypes from "prop-types";
 import Button from "./Button";
 
-const Recipe = ({ data }) => {
+const Recipe = ({ data, getRecipeHandler }) => {
   const {
     recipe_image,
     recipe_name,
@@ -46,16 +46,21 @@ const Recipe = ({ data }) => {
           <CiClock2 className="w-6 h-6 stroke-0" /> {preparing_time} minutes
         </span>
         <span className="flex items-center gap-2 text-base text-card-base-content-secondary">
-          <AiOutlineFire className="w-6 h-6 stroke-0" /> {calories}
+          <AiOutlineFire className="w-6 h-6 stroke-0" /> {calories} Calories
         </span>
       </div>
-      <Button text="Want to Cook"></Button>
+      <Button
+        text="Want to Cook"
+        getRecipeHandler={getRecipeHandler}
+        data={data}
+      ></Button>
     </div>
   );
 };
 
 Recipe.propTypes = {
   data: PropTypes.object.isRequired,
+  getRecipeHandler: PropTypes.func.isRequired,
 };
 
 export default Recipe;

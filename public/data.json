@@ -12,7 +12,7 @@
       "2 cloves garlic"
     ],
     "preparing_time": 30,
-    "calories": "320 calories"
+    "calories": 320
   },
   {
     "recipe_image": "https://images.pexels.com/photos/5640045/pexels-photo-5640045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -27,7 +27,7 @@
       "1 tbsp olive oil"
     ],
     "preparing_time": 25,
-    "calories": "410 calories"
+    "calories": 410
   },
   {
     "recipe_image": "https://images.pexels.com/photos/10695966/pexels-photo-10695966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -42,7 +42,7 @@
       "1 tbsp sesame oil"
     ],
     "preparing_time": 20,
-    "calories": "220 calories"
+    "calories": 220
   },
   {
     "recipe_image": "https://images.pexels.com/photos/7613563/pexels-photo-7613563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -57,7 +57,7 @@
       "50 g cheese"
     ],
     "preparing_time": 35,
-    "calories": "480 calories"
+    "calories": 480
   },
   {
     "recipe_image": "https://images.pexels.com/photos/6454809/pexels-photo-6454809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -72,7 +72,7 @@
       "1 tbsp fish sauce"
     ],
     "preparing_time": 40,
-    "calories": "450 calories"
+    "calories": 450
   },
   {
     "recipe_image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -87,6 +87,6 @@
       "1 tsp vanilla extract"
     ],
     "preparing_time": 25,
-    "calories": "320 calories"
+    "calories": 320
   }
 ]
