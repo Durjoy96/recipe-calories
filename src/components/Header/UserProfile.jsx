@@ -2,7 +2,7 @@ import { HiOutlineUserCircle } from "react-icons/hi2";
 
 const UserProfile = () => {
   return (
-    <div className="w-10 h-10 rounded-full bg-primary flex justify-center items-center cursor-pointer">
+    <div className="hidden lg:w-10 lg:h-10 lg:rounded-full lg:bg-primary lg:flex lg:justify-center lg:items-center lg:cursor-pointer">
       <HiOutlineUserCircle className="h-8 w-8 stroke-1 stroke-base-content"></HiOutlineUserCircle>
     </div>
   );

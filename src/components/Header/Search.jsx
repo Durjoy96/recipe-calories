@@ -4,7 +4,7 @@ import UserProfile from "./UserProfile";
 const Search = () => {
   return (
     <div className="flex items-center gap-6">
-      <div className="w-[260px] relative">
+      <div className="w-100px lg:w-[260px] relative">
         <input
           className="w-full bg-base-200 pl-12 pr-6 py-3 rounded-full focus:outline-primary"
           type="text"

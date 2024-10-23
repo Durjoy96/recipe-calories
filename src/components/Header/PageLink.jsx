@@ -12,7 +12,7 @@ const PageLink = ({ text }) => {
 };
 
 PageLink.propTypes = {
-    text : PropTypes.string.isRequired,
-}
+  text: PropTypes.string.isRequired,
+};
 
 export default PageLink;
