@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import Row from "./Row";
 
-const WantCook = ({ data }) => {
+const WantCook = ({ data, preparingRecipeHandler }) => {
   return (
     <div>
       <div className="w-[350px] h-[50px] border-b mx-auto">
@@ -17,12 +17,17 @@ const WantCook = ({ data }) => {
               <th>Name</th>
               <th>Time</th>
               <th>Calories</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>
             {data.map((item, idx) => (
-              <Row key={idx} data={item} id={idx}></Row>
+              <Row
+                key={idx}
+                data={item}
+                id={idx}
+                preparingRecipeHandler={preparingRecipeHandler}
+                isBtn = {true}
+              ></Row>
             ))}
           </tbody>
         </table>
@@ -33,6 +38,7 @@ const WantCook = ({ data }) => {
 
 WantCook.propTypes = {
   data: PropTypes.array.isRequired,
+  preparingRecipeHandler: PropTypes.func.isRequired,
 };
 
 export default WantCook;
